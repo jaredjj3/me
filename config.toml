@@ -1,3 +1,73 @@
 baseURL = "http://jaredcodes.com/"
 languageCode = "en-us"
-title = "Jared Codes"
+copyright = ""
+title = "Jared Johnson"
+theme = "minimo"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true
+pygmentsCodefences = true
+enableEmoji = true
+defaultContentLanguage = "en"
+
+[params.info]
+description = "software makes life better"
+title404 = "Nothing is here!"
+
+[params.assets]
+favicon = "favicon.ico"
+gopher = ""
+
+[params.copyright]
+prefix = ""
+holder = "Jared Johnson"
+startYear = "2018"
+suffix = ""
+
+[params.settings]
+dateFormat = "April 23, 2018"
+listDateFormat = "April 23, 2018"
+archiveDateFormat = "April 23"
+hideEntryNavigation = ["page"]
+showReadingTime = true
+taxonomyCloudShuffle = true
+accentColor = "#ffcd00"
+hideMainMenu = false
+
+[params.sidebar]
+enable = true
+
+[params.widgets]
+homepage = ["projects"]
+sidebar = ["projects", "about"]
+footer = ["social_menu"]
+
+[params.opengraph.facebook]
+admins = []
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = ""
+
+[params.seo]
+titleSeparator = "•"
+
+[params.social]
+email = "jjohnson.eit@gmail.com"
+github = "jaredjj3"
+linkedin = "jjohnsoneit"
+
+[params.comment]
+enable = false
+
+[taxonomies]
+author = "authors"
+category = "categories"
+
+[blackfriday]
+hrefTargetBlank = true
