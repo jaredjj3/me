@@ -1,27 +1,25 @@
-baseURL = "http://jaredcodes.com/"
-languageCode = "en-us"
-copyright = ""
+baseURL = "http://www.jaredcodes.com"
 title = "Jared Johnson"
+copyright = ""
 theme = "minimo"
-
 disqusShortname = ""
 googleAnalytics = ""
-
-preserveTaxonomyNames = false
-taxonomyTerm = ""
-
-enableRobotsTXT = true
+Paginate = 5
+preserveTaxonomyNames = true
+enableRobotsTXT = true # generate robots.txt
 pygmentsCodefences = true
 enableEmoji = true
 defaultContentLanguage = "en"
 
 [params.info]
-description = "software makes life better"
-title404 = "Nothing is here!"
+description = "Software makes life better"
+title404 = "Nothing's here!"
 
 [params.assets]
 favicon = "favicon.ico"
-gopher = ""
+# customCSS = ["css/custom.css"]
+# customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
 
 [params.copyright]
 prefix = ""
@@ -30,42 +28,58 @@ startYear = "2018"
 suffix = ""
 
 [params.settings]
-dateFormat = "April 23, 2018"
-listDateFormat = "April 23, 2018"
-archiveDateFormat = "April 23"
-hideEntryNavigation = ["page"]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+archiveDateFormat = "Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
 showReadingTime = true
-taxonomyCloudShuffle = false
+taxonomyCloudShuffle = true
 accentColor = "#ffcd00"
 hideMainMenu = false
-contentDir = "content"
 
 [params.sidebar]
 enable = true
 
 [params.widgets]
-homepage = ["projects"]
-sidebar = ["projects", "about"]
+homepage = ["recent_posts"]
+sidebar = ["about"]
 footer = ["social_menu"]
 
-[params.opengraph.facebook]
-admins = []
-appID = ""
-pageID = ""
-
-[params.opengraph.twitter]
-page = ""
-
 [params.seo]
-titleSeparator = "•"
+titleSeparator = "|"
 
 [params.social]
 email = "jjohnson.eit@gmail.com"
 github = "jaredjj3"
+instagram = "jaredplaysguitar"
 linkedin = "jjohnsoneit"
 
-[params.comment]
+[params.comments]
 enable = false
+
+[params.comments.staticman]
+enable = false
+
+[taxonomies]
+author = "authors"
+category = "categories"
+series = "series"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
+[[menu.main]]
+identifier = "projects"
+name = "projects"
+url = "/projects/"
 
 [blackfriday]
 hrefTargetBlank = true
+
+[languages]
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1
