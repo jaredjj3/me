@@ -16,7 +16,6 @@ authors: ["jaredjohnson"]
 
 There are people that want to learn how to play music quickly. Of these people, there is a small subset of people that have the time, money, and willingness to pursue the tried-and-true traditional guitar learning methods.
 
-
 Unfortunately, these methods often fail to balance music theory and application in a manner that is consistently rewarding.
 
 Music theory is simply the study of the theoretical elements of music. It is not required to play music well. It is unnecessary overhead to students that *just want to play music*.
@@ -35,4 +34,14 @@ With user interface (UI) libraries such as React, it is possible to create a ric
 
 ##### The future of StringSync
 
-StringSync will continue to provide simple visual abstractions of music. I will be writing about StringSync's next big feature: *Note Suggestions* when it goes live.
+StringSync's short term goal is to provide simple visual abstractions of music. For example, the virtual fretboard supplements tablature with a more intuitive and familiar interface.
+
+![score](/images/score.png)
+
+{{% center %}}
+*vs*
+{{% /center %}}
+
+![virtual-keyboard](/images/virtual-fretboard.png)
+
+I'll write about the interesting aspects of StringSync as they come.
