@@ -74,6 +74,12 @@ identifier = "projects"
 name = "projects"
 url = "/projects/"
 
+[[menu.main]]
+name = "resume"
+identifier = "resume"
+weight = -10
+url = "/static/assets/jared-johnson.resume.pdf"
+
 [blackfriday]
 hrefTargetBlank = true
 
