@@ -11,7 +11,7 @@ _The repo that uses the tool can be found [here](https://github.com/jaredjj3/lee
 
 #### The problem with studying problems
 
-For software engineering roles, interviews typically have a technical
+Software engineering interviews typically have a technical
 section that tests problem solving skills involving data structures and algorithms.
 The best way to study is simple. DO 👏 THE 👏 PROBLEMS 👏
 
