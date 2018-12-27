@@ -6,8 +6,6 @@ slug: "study-smarter"
 authors: ["jaredjohnson"]
 ---
 
-![img](https://images.unsplash.com/photo-1524086496832-aa348741b7b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2931&q=80)
-
 _This post discusses a lightweight Ruby tool that aids in studying software engineering interview problems._
 _The repo that uses the tool can be found [here](https://github.com/jaredjj3/leetcode)._
 
