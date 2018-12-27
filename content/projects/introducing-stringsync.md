@@ -1,6 +1,6 @@
 ---
 title: "Introducing StringSync"
-date: 2018-04-23T10:53:06-04:00
+date: 2018-04-23
 menu: "projects"
 slug: "introducing-stringsync"
 authors: ["jaredjohnson"]

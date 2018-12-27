@@ -1,6 +1,6 @@
 ---
 title: "Pattern for TypeScript, React, and Recompose"
-date: 2018-09-22T14:52:52.376-04:00
+date: 2018-09-22
 menu: "projects"
 slug: "pattern-for-typescript-react-and-recompose"
 authors: ["jaredjohnson"]
