@@ -38,9 +38,7 @@ StringSync's short term goal is to provide simple visual abstractions of music. 
 
 ![score](/images/score.png)
 
-{{% center %}}
 *vs*
-{{% /center %}}
 
 ![virtual-keyboard](/images/virtual-fretboard.png)
 
