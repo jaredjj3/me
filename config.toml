@@ -33,6 +33,9 @@ taxonomyCloudShuffle = true
 accentColor = "#4acaa8"
 hideMainMenu = false
 
+[params.sidebar]
+enable = false
+
 [params.seo]
 titleSeparator = "|"
 
@@ -40,6 +43,11 @@ titleSeparator = "|"
 email = "jared@jaredjohnson.dev"
 github = "jaredjj3"
 linkedin = "www.linkedin.com/in/jaredjohnsondev"
+
+[params.widgets]
+# homepage = ["recent_posts"]
+sidebar = ["about"]
+footer = ["social_menu"]
 
 [params.comments]
 enable = false
