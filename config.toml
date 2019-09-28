@@ -79,4 +79,4 @@ weight = 1
 [deployment]
 [[deployment.targets]]
 name = "aws"
-URL = "s3://jared-johnson-prod?region=us-east-1"
+URL = "s3://jaredjohnson.dev?region=us-east-1"
