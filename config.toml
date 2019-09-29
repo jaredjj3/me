@@ -42,7 +42,7 @@ titleSeparator = "|"
 [params.social]
 email = "jared@jaredjohnson.dev"
 github = "jaredjj3"
-linkedin = "www.linkedin.com/in/jaredjohnsondev"
+linkedin = "jaredjohnsondev"
 
 [params.widgets]
 # homepage = ["recent_posts"]
